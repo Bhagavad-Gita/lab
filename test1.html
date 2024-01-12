@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Request App</title>
+  <link rel="stylesheet" href="./Style.Css">
+</head>
+<body>
+  <div id="translate-options">
+    <select name="language" id="lang">
+      <option value="sn">Sn</option>
+      <option value="en">En</option>
+    </select>
+  </div>
+
+  <div id="container">
+    <div id="text-display">
+      <p id="api-response-text">धृतराष्ट्र उवाच : <br>
+        धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः |  <br>
+        मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ||१||.</p>
+    </div>
+
+    <button onclick="sendRandomRequest()">यादृच्छिकरूपेण</button>
+    <button onclick="sendSequentialRequest()">परः श्लोकः</button>
+  </div>
+<script src="./myscripts.js"></script>
+
+</body>
+</html>
